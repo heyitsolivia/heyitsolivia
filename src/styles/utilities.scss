@@ -9,3 +9,8 @@
 .u-color--primary {
     color: $primary-color;
 }
+
+// Measure (restrict content to readable line length)
+.u-measure {
+    max-width: 65ch;
+}

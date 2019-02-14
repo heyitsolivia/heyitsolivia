@@ -1,13 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Header from "../components/header"
 
 
 export default () => (
-    <Layout> 
-        <Header/>
-        <article className="text--lead">
+    <Layout>
+        <article className="text--lead u-measure">
             <p>👋🏻 Hey, it's Olivia.</p>
             <p>I make things for humans. I'm a senior designer who thinks and builds in systems, and leads teams in developing and applying thoughtful, inclusive approaches to difficult problems. I'm deeply passionate about designing technology and services that purposefully improves people's lives, especially for vulnerable or underserved communities.</p>
             <p>I work carefully and systematically, drawing from human-centered, research-based methodologies  to ask the right questions and champion the needs of the people we serve first and foremost, and to bring clarity and definition to large, complex problems.</p>

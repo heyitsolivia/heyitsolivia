@@ -1,7 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default() => (
-    <header>
-        <h1 className="heading heading--jumbo">Olivia Cheng</h1>
+    <header className="header">
+        <h1 className="heading heading--jumbo cursor">
+            <Link to="/">Olivia Cheng</Link>
+        </h1>
     </header>
 )
