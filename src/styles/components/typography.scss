@@ -1,0 +1,109 @@
+// Typography
+
+
+// Body
+body {
+    font-family: $font-family-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    color: $text-color;
+}
+
+.text--lead {
+    font-size: 1.25rem;
+}
+
+.text--regular {
+    font-size: 1rem;
+}
+
+
+// Headings
+.heading {
+    font-family: $font-family-sans;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+    .heading--jumbo {
+        font-size: 3rem;
+    }
+
+    .heading--large {
+        font-size: 1.7rem;
+    }
+
+    .heading--medium {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .heading--small {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+    }
+
+// Lists
+ul {
+    margin-top: 0.5rem;
+    margin-bottom: 1.75rem;
+    padding-left: 0;
+    list-style: circle;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+// Links
+a {
+    color: $text-color;
+    text-decoration: none;
+}
+
+.link {
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0.20em;
+        width: 100%;
+        height: 0;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin: -2px;
+        border-bottom: 1px solid $text-color;
+        background: transparent;
+        transition: all 300ms ease-in;        
+        z-index: -1;
+
+    }
+    &:hover:after,
+    &:focus:after {
+        height: 100%;
+        border-radius: 3px;
+        border-color: $primary-color;
+        background: tint($primary-color, 50%);
+        color: $text-color;
+        transition: all 250ms ease-out;
+    }
+}
+
+
+
+// Resume
+.resume__heading {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint(medium) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

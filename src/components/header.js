@@ -2,6 +2,6 @@ import React from "react"
 
 export default() => (
     <header>
-        <h1>Olivia Cheng</h1>
+        <h1 className="heading heading--jumbo">Olivia Cheng</h1>
     </header>
 )
