@@ -67,8 +67,9 @@ a {
 
 .link {
     position: relative;
+    z-index: 1;
 
-    &:after {
+    &:before {
         content: '';
         position: absolute;
         left: 0;
@@ -84,8 +85,9 @@ a {
         z-index: -1;
 
     }
-    &:hover:after,
-    &:focus:after {
+
+    &:hover:before,
+    &:focus:before {
         height: 100%;
         border-radius: 3px;
         border-color: $primary-color;
@@ -93,8 +95,26 @@ a {
         color: $text-color;
         transition: all 250ms ease-out;
     }
-}
+    
+    // Modifications to .link on dark backgrounds
+    .u-fill--dark & {
+        color: $white;
+    }
 
+    .u-fill--dark &:before {
+        border-color: $white;
+    }
+
+    .u-fill--dark &:hover,
+    .u-fill--dark &:focus {
+        color: $text-color;
+    }
+    
+    .u-fill--dark &:hover:before,
+    .u-fill--dark &:focus:before {
+        border-color: $primary-color;
+    }
+}
 
 
 // Resume
