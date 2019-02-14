@@ -1,8 +1,12 @@
 import React from "react"
+import Helmet from "react-helmet"
 import Layout from "../components/layout"
 
 export default () => (
     <Layout>
+        <Helmet>
+            <title>Heyitsolivia | Resume</title>
+        </Helmet>
         <article className="u-measure">
             <h2 className="heading heading--large">Experience</h2>
             
