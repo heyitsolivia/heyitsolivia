@@ -10,7 +10,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.0.119",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heyitsolivia/heyitsolivia.github.io"
+    "url": "https://github.com/heyitsolivia/heyitsolivia"
   },
   "bugs": {
-    "url": "https://github.com/heyitsolivia/heyitsolivia.github.io/issues"
+    "url": "https://github.com/heyitsolivia/heyitsolivia/issues"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
