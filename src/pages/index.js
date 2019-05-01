@@ -7,7 +7,7 @@ export default () => (
     <Layout>
         <article className="text--lead u-measure">
             <p>
-                <span role="img" aria-label="Waving hand">👋🏻</span>
+                <span role="img" aria-label="Waving hand">👋</span>
                 Hey, it's Olivia.
             </p>
             <p>
