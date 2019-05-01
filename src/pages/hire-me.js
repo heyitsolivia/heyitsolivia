@@ -13,7 +13,7 @@ export default () => (
         </Helmet>
         <article className="text--lead u-measure">
             <h1 class="heading heading--large">
-                <span role="img" aria-label="Waving hand">⚡</span>
+                <span role="img" aria-label="Thunderbolt">⚡</span>
                 Hire Me
             </h1>
             <p>
@@ -22,12 +22,13 @@ export default () => (
                 I make things for humans. I'm a senior designer who thinks and builds in systems, and leads teams in developing and applying thoughtful, inclusive approaches to difficult problems. I'm deeply passionate about designing technology and services that purposefully improves people's lives, especially for vulnerable or underserved communities.
             </p>
             <p>
-                If I sound like someone you’d like to work with, read on. ➡️
+                If I sound like someone you’d like to work with, read on. 
+                <span role="img" aria-label="Right-pointing arrow"> ➡️</span>
             </p>
 
             <section>
                 <h1 class="heading heading--medium">
-                    <span role="img" aria-label="Waving hand">💁🏻‍♀️</span> What
+                    <span role="img" aria-label="Woman tipping hand">💁🏻‍♀️</span> What
                 </h1>
                 <p>
                     I’m looking for a role as the lead of a product design team at a place that cares deeply about people and understands the importance of design.
@@ -36,14 +37,14 @@ export default () => (
             
             <section>
                 <h1 class="heading heading--medium">
-                    <span role="img" aria-label="Waving hand">🗺️</span> Where
+                    <span role="img" aria-label="Globe">🌐</span> Where
                 </h1>
                 <p>I’m based in Washington DC. I can work remotely, but have a preference for a home base in DC.</p>
             </section>
 
             <section>
                 <h1 class="heading heading--medium">
-                    <span role="img" aria-label="Waving hand">🗓️</span> When
+                    <span role="img" aria-label="Calendar">🗓️</span> When
                 </h1>    
                 <p>
                     I’m available to start in early July 2019, or potentially sooner under the right conditions.
@@ -52,7 +53,7 @@ export default () => (
 
             <section>
                 <h1 class="heading heading--medium">
-                    <span role="img" aria-label="Waving hand">🙋🏻</span> About Me
+                    <span role="img" aria-label="Woman raising hand">🙋🏻</span> About Me
                 </h1>    
                 <p>
                     I’ve been designing and building things for people over a decade now. I do my best work when I get to break down complex problems and apply thoughtful, inclusive approaches— working systematically and creating scalable solutions wherever possible, and always rooting every design decision in the needs of the user, first and foremost.
@@ -74,7 +75,7 @@ export default () => (
 
             <section>
                 <h1 class="heading heading--medium">
-                    <span role="img" aria-label="Waving hand">👉</span> About you
+                    <span role="img" aria-label="Right-pointing hand">👉</span> About you
                 </h1>    
                 <p>
                     I'd be super excited to work at an organization that shares and supports my values:
