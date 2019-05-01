@@ -59,7 +59,7 @@ export default () => (
                     I’ve been designing and building things for people over a decade now. I do my best work when I get to break down complex problems and apply thoughtful, inclusive approaches— working systematically and creating scalable solutions wherever possible, and always rooting every design decision in the needs of the user, first and foremost.
                 </p>
                 <p>
-                    I deliver complex products, defining their shape and breathing life into abstract visions, improving processes, practices and growing teams along the way. I’ve taken lead roles across all steps of the product development cycle, working collaboratively and cross-functionally to plan and conduct user research, facilitate workshops to deeply understand business and stakeholder requirements, create user flows and visual designs, all the way through to building front-end design systems and refining interactions in code.
+                    I deliver complex products, defining their shape and breathing life into abstract visions, improving processes, practices and growing teams along the way. I’ve taken lead roles across all steps of the product development cycle, working collaboratively and cross-functionally to plan and conduct user research, facilitate workshops to deeply understand business and stakeholder requirements, create user flows and design prototypes, all the way through to building design systems and refining interactions in code.
                 </p>
                 <p>
                     I choose the right tool for the job and I build inclusively. I advocate for best practices around design systems, front-end performance, accessibility, and responsive development in order to deliver consistent experiences that are accessible to all people and performant across all platforms.
@@ -147,7 +147,9 @@ export default () => (
                     <li>Any additional information you think would be useful for me to know.</li>
                 </ul>
             </section>
+            
             <span class="heading heading--large" role="img" aria-label="Waving hand">👋</span>
+
         </article>
     </Layout>
 )
